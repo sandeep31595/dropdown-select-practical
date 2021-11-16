@@ -84,7 +84,6 @@ const App = () => {
                                             <th scope="col">Select</th>
                                             <th scope="col">Title</th>
                                             <th scope="col">Categorie</th>
-                                            <th scope="col">Words</th>
                                             <th scope="col">Action</th>
                                         </tr>
                                     </thead>
@@ -106,7 +105,6 @@ const App = () => {
                                                     </td>
                                                     <td>{item.name}</td>
                                                     <td>{item.Category}</td>
-                                                    <td>913</td>
                                                     <td><Button variant="danger" onClick={() => clickRemove(item.id)}>Remove</Button></td>
                                                 </tr>)
                                         })}
